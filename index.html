@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-hub">
+        <h1>Welcome to the Calculator Hub</h1>
+        <p>Select a calculator to use:</p>
+        <div class="calculator-options">
+            <button class="calculator-btn" onclick="redirectToPage1()">BMI Calculator</button>
+            <button class="calculator-btn" onclick="redirectToPage2()">Budget Calculator</button>
+            <button class="calculator-btn" onclick="redirectToPage3()">Basic Calculator</button>
+        </div>
+    </div>
+    <script>
+        function redirectToPage1(){
+            window.location.href = "bmi/index.html";
+        }
+        function redirectToPage2(){
+            window.location.href = "budget/index.html";
+        }
+        function redirectToPage3(){
+            window.location.href = "calculator/index.html";
+        }
+    </script>
+</body>
+</html>

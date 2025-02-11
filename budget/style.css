@@ -1,0 +1,78 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Container styling */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* Input field styling */
+.input-section label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+.input-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #45a049;
+}
+/* Expense list styling */
+#expense-list {
+    margin-top: 20px;
+    text-align: left;
+}
+#expenses {
+    list-style-type: none;
+    padding: 0;
+}
+#expenses li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+/* Budget Summary styling */
+#budget-summary {
+    margin-top: 20px;
+    font-size: 18px;
+}
+#budget-summary span {
+    font-weight: bold;
+}

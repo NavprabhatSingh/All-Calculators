@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Budget Calculator</h1>
+        <!-- Input fields for Income and Expenses -->
+        <div class="input-section">
+            <label for="income">Income ($):</label>
+            <input type="number" id="income" placeholder="Enter your income" required>
+            <label for="expense">Expense ($):</label>
+            <input type="number" id="expense" placeholder="Enter your expense" required>
+            <label for="category">Category:</label>
+            <input type="text" id="category" placeholder="Expense category (e.g. Food, Rent)" required>
+        </div>
+        <!-- Button to add expense -->
+        <button id="add-expense-btn">Add Expense</button>
+        <!-- List of added expenses -->
+        <div id="expense-list">
+            <h2>Expenses</h2>
+            <ul id="expenses"></ul>
+        </div>
+        <!-- Budget Balance -->
+        <div id="budget-summary">
+            <h2>Budget Summary</h2>
+            <p>Income: $<span id="budget-income">0</span></p>
+            <p>Expenses: $<span id="budget-expenses">0</span></p>
+            <p>Remaining Balance: $<span id="remaining-balance">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
